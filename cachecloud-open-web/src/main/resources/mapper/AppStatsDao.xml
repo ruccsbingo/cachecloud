@@ -242,11 +242,11 @@
     
     <select id="getTopAppCommandGroupSum" resultType="AppCommandStats">
         select
-          app_id,collect_time,command_name,sum(command_count) as command_count,modify_time, create_time
+          app_id, collect_time, command_name,sum(command_count) as command_count
         from <include refid="select_table"/>
         where app_id = #{appId}
         and collect_time between #{td.begin} and #{td.end}
-        group by command_name
+        group by app_id, collect_time, command_name
         order by sum(command_count) desc
         limit #{top};
     </select>

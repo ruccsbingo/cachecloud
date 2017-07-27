@@ -1,0 +1,16 @@
+09:47:21.167 [http-nio-9999-exec-2] WARN  c.s.c.w.c.AppManageController - user admin hope to offline appId: 10000
+09:47:21.796 [http-nio-9999-exec-2] WARN  c.s.c.w.c.AppManageController - user admin offline appId: 10000, result is true
+09:50:44.343 [http-nio-9999-exec-6] WARN  c.s.c.w.c.AppManageController - user admin appDeploy: appDeployText=192.168.4.42:512:192.168.4.42
+192.168.4.42
+192.168.4.42
+192.168.4.42,appAuditId:2
+09:56:29.488 [http-nio-9999-exec-5] WARN  c.s.c.w.c.AppManageController - user admin addAuditStatus: status=-1,appAuditId:2,refuseReason:dev
+09:56:57.534 [http-nio-9999-exec-9] WARN  c.s.c.w.c.AppManageController - user admin appDeploy: appDeployText=192.168.4.42:256:192.168.4.42
+192.168.4.42
+192.168.4.42
+192.168.4.42,appAuditId:3
+09:57:02.474 [http-nio-9999-exec-9] WARN  c.s.c.w.c.AppManageController - user admin appDeploy: appDeployText=192.168.4.42:256:192.168.4.42
+192.168.4.42
+192.168.4.42
+192.168.4.42,appAuditId:3, result is true
+09:57:13.748 [http-nio-9999-exec-5] WARN  c.s.c.w.c.AppManageController - user admin addAuditStatus: status=1,appAuditId:3,refuseReason:null

@@ -1,0 +1,690 @@
+2017-07-24 10:15:32.411 {main} INFO  org.springframework.boot.SpringApplication - 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m      [2m (v1.3.1.RELEASE)[0;39m
+
+
+2017-07-24 10:15:37.524 {main} INFO  com.sohu.cache.app.ApplicationStarter - Starting ApplicationStarter on DevOpsdeMacBook-Pro-2.local with PID 95780 (/Users/zhangbing/code/cachecloud/cachecloud-open-web/target/classes started by zhangbing in /Users/zhangbing/code/cachecloud/cachecloud-open-web)
+2017-07-24 10:15:37.525 {main} INFO  com.sohu.cache.app.ApplicationStarter - No active profile set, falling back to default profiles: default
+2017-07-24 10:15:37.792 {main} INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1960413b: startup date [Mon Jul 24 10:15:37 CST 2017]; root of context hierarchy
+2017-07-24 10:15:38.661 {main} INFO  o.s.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring.xml]
+2017-07-24 10:15:38.767 {main} INFO  o.s.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-local.xml]
+2017-07-24 10:15:38.790 {main} INFO  o.s.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-config.xml]
+2017-07-24 10:15:38.822 {main} INFO  o.s.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-quartz.xml]
+2017-07-24 10:15:38.906 {main} INFO  o.s.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-mybatis.xml]
+2017-07-24 10:15:38.965 {main} INFO  o.s.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-service.xml]
+2017-07-24 10:15:38.995 {main} INFO  o.s.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-data.xml]
+2017-07-24 10:15:39.011 {main} INFO  o.s.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-manage.xml]
+2017-07-24 10:15:39.058 {main} INFO  o.s.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+2017-07-24 10:15:39.163 {main} INFO  o.s.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-jmx.xml]
+2017-07-24 10:15:39.185 {main} INFO  o.s.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-alert.xml]
+2017-07-24 10:15:39.195 {main} INFO  o.s.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-client-report.xml]
+2017-07-24 10:15:39.224 {main} INFO  o.s.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-inspector.xml]
+2017-07-24 10:15:39.424 {main} INFO  o.s.b.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'mvcContentNegotiationManager' with a different definition: replacing [Root bean: class [org.springframework.web.accept.ContentNegotiationManagerFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$EnableWebMvcConfiguration; factoryMethodName=mvcContentNegotiationManager; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]]
+2017-07-24 10:15:39.425 {main} INFO  o.s.b.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'mvcResourceUrlProvider' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.resource.ResourceUrlProvider]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$EnableWebMvcConfiguration; factoryMethodName=mvcResourceUrlProvider; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]]
+2017-07-24 10:15:39.426 {main} INFO  o.s.b.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'mvcPathMatcher' with a different definition: replacing [Root bean: class [org.springframework.util.AntPathMatcher]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$EnableWebMvcConfiguration; factoryMethodName=mvcPathMatcher; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]]
+2017-07-24 10:15:39.427 {main} INFO  o.s.b.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'mvcUrlPathHelper' with a different definition: replacing [Root bean: class [org.springframework.web.util.UrlPathHelper]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$EnableWebMvcConfiguration; factoryMethodName=mvcUrlPathHelper; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]]
+2017-07-24 10:15:39.428 {main} INFO  o.s.c.a.ConfigurationClassBeanDefinitionReader - Skipping bean definition for [BeanMethod:name=mvcUriComponentsContributor,declaringClass=org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport]: a definition for bean 'mvcUriComponentsContributor' already exists. This top-level bean definition is considered as an override.
+2017-07-24 10:15:39.446 {main} INFO  o.s.b.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2017-07-24 10:15:40.079 {main} INFO  o.s.c.support.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [application.properties]
+2017-07-24 10:15:40.214 {main} INFO  com.mchange.v2.log.MLog - MLog clients using log4j logging.
+2017-07-24 10:15:45.249 {main} INFO  com.mchange.v2.c3p0.C3P0Registry - Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+2017-07-24 10:15:45.315 {main} INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'cacheCloudDB' of type [class com.mchange.v2.c3p0.ComboPooledDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-24 10:15:46.044 {main} INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mysqlSessionFactory' of type [class com.sohu.cache.app.AliasesResourceSqlSessionFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-24 10:15:46.045 {main} INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mysqlSessionFactory' of type [class org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-24 10:15:46.055 {main} INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'appAuditDao' of type [class org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-24 10:15:46.056 {main} INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'appAuditLogDao' of type [class org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-24 10:15:46.057 {main} INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'appClientCostTimeStatDao' of type [class org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-24 10:15:46.058 {main} INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'appClientCostTimeTotalStatDao' of type [class org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-24 10:15:46.059 {main} INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'appClientExceptionStatDao' of type [class org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-24 10:15:46.060 {main} INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'appClientReportDataSizeDao' of type [class org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-24 10:15:46.061 {main} INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'appClientValueStatDao' of type [class org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-24 10:15:46.062 {main} INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'appClientVersionDao' of type [class org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-24 10:15:46.063 {main} INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'appDailyDao' of type [class org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-24 10:15:46.064 {main} INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'appDao' of type [class org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-24 10:15:46.065 {main} INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'appDataMigrateStatusDao' of type [class org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-24 10:15:46.066 {main} INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'appInstanceClientRelationDao' of type [class org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-24 10:15:46.068 {main} INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'appStatsDao' of type [class org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-24 10:15:46.069 {main} INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'appToUserDao' of type [class org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-24 10:15:46.071 {main} INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'appUserDao' of type [class org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-24 10:15:46.073 {main} INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configDao' of type [class org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-24 10:15:46.074 {main} INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'instanceAlertConfigDao' of type [class org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-24 10:15:46.075 {main} INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'instanceConfigDao' of type [class org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-24 10:15:46.075 {main} INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'instanceDao' of type [class org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-24 10:15:46.076 {main} INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'instanceFaultDao' of type [class org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-24 10:15:46.077 {main} INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'instanceSlowLogDao' of type [class org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-24 10:15:46.078 {main} INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'instanceStatsDao' of type [class org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-24 10:15:46.078 {main} INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'machineDao' of type [class org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-24 10:15:46.079 {main} INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'machineStatsDao' of type [class org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-24 10:15:46.084 {main} INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'memFaultDao' of type [class org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-24 10:15:46.085 {main} INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'quartzDao' of type [class org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-24 10:15:46.086 {main} INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'serverStatusDao' of type [class org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-24 10:15:46.169 {main} INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$51e0b284] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-24 10:15:46.736 {main} INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 9999 (http)
+2017-07-24 10:15:46.755 {main} INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2017-07-24 10:15:46.756 {main} INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.0.30
+2017-07-24 10:15:47.732 {localhost-startStop-1} INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2017-07-24 10:15:47.741 {localhost-startStop-1} INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-07-24 10:15:47.742 {localhost-startStop-1} INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 9950 ms
+2017-07-24 10:15:48.276 {localhost-startStop-1} INFO  o.s.boot.context.embedded.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-07-24 10:15:48.282 {localhost-startStop-1} INFO  o.s.boot.context.embedded.FilterRegistrationBean - Mapping filter: 'metricFilter' to: [/*]
+2017-07-24 10:15:48.284 {localhost-startStop-1} INFO  o.s.boot.context.embedded.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-07-24 10:15:48.284 {localhost-startStop-1} INFO  o.s.boot.context.embedded.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-07-24 10:15:48.285 {localhost-startStop-1} INFO  o.s.boot.context.embedded.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-07-24 10:15:48.285 {localhost-startStop-1} INFO  o.s.boot.context.embedded.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-07-24 10:15:48.285 {localhost-startStop-1} INFO  o.s.boot.context.embedded.FilterRegistrationBean - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2017-07-24 10:15:48.285 {localhost-startStop-1} INFO  o.s.boot.context.embedded.FilterRegistrationBean - Mapping filter: 'applicationContextIdFilter' to: [/*]
+2017-07-24 10:15:48.425 {main} INFO  com.sohu.cache.web.service.impl.ConfigServiceImpl - ===========ConfigServiceImpl reload config start============
+2017-07-24 10:15:48.526 {main} INFO  c.m.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2zeyar9pvqhy6q1xr3tb2|294ecbf7, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2zeyar9pvqhy6q1xr3tb2|294ecbf7, idleConnectionTestPeriod -> 0, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://zhangbing.dev.p1staff.com:3306/cache_cloud, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> select 1 from dual, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2017-07-24 10:16:08.500 {Timer-0} WARN  com.mchange.v2.async.ThreadPoolAsynchronousRunner - com.mchange.v2.async.ThreadPoolAsynchronousRunner$DeadlockDetector@7ea851b8 -- APPARENT DEADLOCK!!! Creating emergency threads for unassigned pending tasks!
+2017-07-24 10:16:08.503 {Timer-0} WARN  com.mchange.v2.async.ThreadPoolAsynchronousRunner - com.mchange.v2.async.ThreadPoolAsynchronousRunner$DeadlockDetector@7ea851b8 -- APPARENT DEADLOCK!!! Complete Status: 
+	Managed Threads: 3
+	Active Threads: 3
+	Active Tasks: 
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@3152ba26 (com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0)
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@dcb0825 (com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1)
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@29aed9 (com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2)
+	Pending Tasks: 
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@755a426e
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@517d4569
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@422f543
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@49b0cc78
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@6e5eae12
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@5533f8bd
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@46a897b5
+Pool thread stack traces:
+	Thread[com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1,5,com.sohu.cache.app.ApplicationStarter]
+		java.lang.Thread.sleep(Native Method)
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1805)
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)
+	Thread[com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2,5,com.sohu.cache.app.ApplicationStarter]
+		java.lang.Thread.sleep(Native Method)
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1805)
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)
+	Thread[com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0,5,com.sohu.cache.app.ApplicationStarter]
+		java.lang.Thread.sleep(Native Method)
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1805)
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)
+
+
+2017-07-24 10:16:17.888 {com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1} WARN  com.mchange.v2.resourcepool.BasicResourcePool - com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@dcb0825 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor50.newInstance(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_131]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_131]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1129) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:358) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2498) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2535) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2320) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:834) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46) ~[mysql-connector-java-5.1.29.jar:na]
+	at sun.reflect.GeneratedConstructorAccessor48.newInstance(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_131]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_131]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:416) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:347) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547) [c3p0-0.9.1.1.jar:0.9.1.1]
+Caused by: java.net.UnknownHostException: zhangbing.dev.p1staff.com
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280) ~[na:1.8.0_131]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192) ~[na:1.8.0_131]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126) ~[na:1.8.0_131]
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:248) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:308) ~[mysql-connector-java-5.1.29.jar:na]
+	... 19 common frames omitted
+2017-07-24 10:16:17.889 {com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2} WARN  com.mchange.v2.resourcepool.BasicResourcePool - com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@29aed9 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor50.newInstance(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_131]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_131]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1129) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:358) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2498) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2535) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2320) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:834) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46) ~[mysql-connector-java-5.1.29.jar:na]
+	at sun.reflect.GeneratedConstructorAccessor48.newInstance(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_131]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_131]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:416) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:347) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547) [c3p0-0.9.1.1.jar:0.9.1.1]
+Caused by: java.net.UnknownHostException: zhangbing.dev.p1staff.com
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280) ~[na:1.8.0_131]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192) ~[na:1.8.0_131]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126) ~[na:1.8.0_131]
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:248) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:308) ~[mysql-connector-java-5.1.29.jar:na]
+	... 19 common frames omitted
+2017-07-24 10:16:17.889 {com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0} WARN  com.mchange.v2.resourcepool.BasicResourcePool - com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@3152ba26 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor50.newInstance(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_131]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_131]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1129) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:358) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2498) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2535) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2320) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:834) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46) ~[mysql-connector-java-5.1.29.jar:na]
+	at sun.reflect.GeneratedConstructorAccessor48.newInstance(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_131]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_131]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:416) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:347) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547) [c3p0-0.9.1.1.jar:0.9.1.1]
+Caused by: java.net.UnknownHostException: zhangbing.dev.p1staff.com
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280) ~[na:1.8.0_131]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192) ~[na:1.8.0_131]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126) ~[na:1.8.0_131]
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:248) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:308) ~[mysql-connector-java-5.1.29.jar:na]
+	... 19 common frames omitted
+2017-07-24 10:16:18.185 {main} ERROR com.sohu.cache.web.service.impl.ConfigServiceImpl - nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is java.sql.SQLException: Connections could not be acquired from the underlying database!
+### The error may exist in file [/Users/zhangbing/code/cachecloud/cachecloud-open-web/target/classes/mapper/ConfigDao.xml]
+### The error may involve com.sohu.cache.dao.ConfigDao.getConfigList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is java.sql.SQLException: Connections could not be acquired from the underlying database!
+org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is java.sql.SQLException: Connections could not be acquired from the underlying database!
+### The error may exist in file [/Users/zhangbing/code/cachecloud/cachecloud-open-web/target/classes/mapper/ConfigDao.xml]
+### The error may involve com.sohu.cache.dao.ConfigDao.getConfigList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is java.sql.SQLException: Connections could not be acquired from the underlying database!
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:76) ~[mybatis-spring-1.2.3.jar:1.2.3]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:399) ~[mybatis-spring-1.2.3.jar:1.2.3]
+	at com.sun.proxy.$Proxy61.selectList(Unknown Source) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:205) ~[mybatis-spring-1.2.3.jar:1.2.3]
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:119) ~[mybatis-3.2.8.jar:3.2.8]
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:63) ~[mybatis-3.2.8.jar:3.2.8]
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:52) ~[mybatis-3.2.8.jar:3.2.8]
+	at com.sun.proxy.$Proxy74.getConfigList(Unknown Source) ~[na:na]
+	at com.sohu.cache.web.service.impl.ConfigServiceImpl.getConfigList(ConfigServiceImpl.java:197) [classes/:na]
+	at com.sohu.cache.web.service.impl.ConfigServiceImpl.getConfigMap(ConfigServiceImpl.java:211) [classes/:na]
+	at com.sohu.cache.web.service.impl.ConfigServiceImpl.reloadSystemConfig(ConfigServiceImpl.java:42) [classes/:na]
+	at com.sohu.cache.web.service.impl.ConfigServiceImpl.init(ConfigServiceImpl.java:33) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_131]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeCustomInitMethod(AbstractAutowireCapableBeanFactory.java:1706) [spring-beans-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1645) [spring-beans-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574) [spring-beans-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545) [spring-beans-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482) [spring-beans-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) [spring-beans-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) [spring-beans-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) [spring-beans-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) [spring-beans-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772) [spring-beans-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:839) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538) [spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:118) [spring-boot-1.3.1.RELEASE.jar:1.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:764) [spring-boot-1.3.1.RELEASE.jar:1.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.doRun(SpringApplication.java:357) [spring-boot-1.3.1.RELEASE.jar:1.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:305) [spring-boot-1.3.1.RELEASE.jar:1.3.1.RELEASE]
+	at com.sohu.cache.app.ApplicationStarter.main(ApplicationStarter.java:19) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_131]
+	at org.springframework.boot.maven.AbstractRunMojo$LaunchRunner.run(AbstractRunMojo.java:467) [spring-boot-maven-plugin-1.3.1.RELEASE.jar:1.3.1.RELEASE]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+Caused by: org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is java.sql.SQLException: Connections could not be acquired from the underlying database!
+### The error may exist in file [/Users/zhangbing/code/cachecloud/cachecloud-open-web/target/classes/mapper/ConfigDao.xml]
+### The error may involve com.sohu.cache.dao.ConfigDao.getConfigList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is java.sql.SQLException: Connections could not be acquired from the underlying database!
+	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:26) ~[mybatis-3.2.8.jar:3.2.8]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:111) ~[mybatis-3.2.8.jar:3.2.8]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:102) ~[mybatis-3.2.8.jar:3.2.8]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_131]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:386) ~[mybatis-spring-1.2.3.jar:1.2.3]
+	... 37 common frames omitted
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is java.sql.SQLException: Connections could not be acquired from the underlying database!
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80) ~[spring-jdbc-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:82) ~[mybatis-spring-1.2.3.jar:1.2.3]
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:68) ~[mybatis-spring-1.2.3.jar:1.2.3]
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:279) ~[mybatis-3.2.8.jar:3.2.8]
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:72) ~[mybatis-3.2.8.jar:3.2.8]
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:59) ~[mybatis-3.2.8.jar:3.2.8]
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:267) ~[mybatis-3.2.8.jar:3.2.8]
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:137) ~[mybatis-3.2.8.jar:3.2.8]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:96) ~[mybatis-3.2.8.jar:3.2.8]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:77) ~[mybatis-3.2.8.jar:3.2.8]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:108) ~[mybatis-3.2.8.jar:3.2.8]
+	... 43 common frames omitted
+Caused by: java.sql.SQLException: Connections could not be acquired from the underlying database!
+	at com.mchange.v2.sql.SqlUtils.toSQLException(SqlUtils.java:106) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool.checkoutPooledConnection(C3P0PooledConnectionPool.java:529) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource.getConnection(AbstractPoolBackedDataSource.java:128) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:111) ~[spring-jdbc-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:77) ~[spring-jdbc-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	... 53 common frames omitted
+Caused by: com.mchange.v2.resourcepool.CannotAcquireResourceException: A ResourcePool could not acquire a resource from its primary factory or source.
+	at com.mchange.v2.resourcepool.BasicResourcePool.awaitAvailable(BasicResourcePool.java:1319) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.resourcepool.BasicResourcePool.prelimCheckoutResource(BasicResourcePool.java:557) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.resourcepool.BasicResourcePool.checkoutResource(BasicResourcePool.java:477) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool.checkoutPooledConnection(C3P0PooledConnectionPool.java:525) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	... 56 common frames omitted
+2017-07-24 10:16:18.199 {main} INFO  com.sohu.cache.web.service.impl.ConfigServiceImpl - ConstUtils.CONTACT: user1:(xx@zz.com, user1:135xxxxxxxx)<br/>user2: (user2@zz.com, user2:138xxxxxxxx)
+2017-07-24 10:16:18.200 {main} INFO  com.sohu.cache.web.service.impl.ConfigServiceImpl - ConstUtils.DOCUMENT_URL: http://cachecloud.github.io
+2017-07-24 10:16:18.201 {main} INFO  com.sohu.cache.web.service.impl.ConfigServiceImpl - ConstUtils.MAVEN_WAREHOUSE: http://your_maven_house
+2017-07-24 10:16:18.201 {main} INFO  com.sohu.cache.web.service.impl.ConfigServiceImpl - ConstUtils.EMAILS: xx@sohu.com,yy@qq.com
+2017-07-24 10:16:18.201 {main} INFO  com.sohu.cache.web.service.impl.ConfigServiceImpl - ConstUtils.PHONES: 13812345678,13787654321
+2017-07-24 10:16:18.201 {main} INFO  com.sohu.cache.web.service.impl.ConfigServiceImpl - ConstUtils.USERNAME: cachecloud
+2017-07-24 10:16:18.201 {main} INFO  com.sohu.cache.web.service.impl.ConfigServiceImpl - ConstUtils.PASSWORD: cachecloud
+2017-07-24 10:16:18.201 {main} INFO  com.sohu.cache.web.service.impl.ConfigServiceImpl - ConstUtils.SSH_PORT_DEFAULT: 22
+2017-07-24 10:16:18.201 {main} INFO  com.sohu.cache.web.service.impl.ConfigServiceImpl - ConstUtils.SUPER_ADMIN_NAME: admin
+2017-07-24 10:16:18.201 {main} INFO  com.sohu.cache.web.service.impl.ConfigServiceImpl - ConstUtils.SUPER_ADMIN_PASS: admin
+2017-07-24 10:16:18.201 {main} INFO  com.sohu.cache.web.service.impl.ConfigServiceImpl - ConstUtils.SUPER_ADMINS: admin
+2017-07-24 10:16:18.202 {main} INFO  com.sohu.cache.web.service.impl.ConfigServiceImpl - ConstUtils.SUPER_MANAGER: [admin]
+2017-07-24 10:16:18.202 {main} INFO  com.sohu.cache.web.service.impl.ConfigServiceImpl - ConstUtils.CPU_USAGE_RATIO_THRESHOLD: 80.0
+2017-07-24 10:16:18.202 {main} INFO  com.sohu.cache.web.service.impl.ConfigServiceImpl - ConstUtils.MEMORY_USAGE_RATIO_THRESHOLD: 80.0
+2017-07-24 10:16:18.202 {main} INFO  com.sohu.cache.web.service.impl.ConfigServiceImpl - ConstUtils.LOAD_THRESHOLD: 8.0
+2017-07-24 10:16:18.202 {main} INFO  com.sohu.cache.web.service.impl.ConfigServiceImpl - ConstUtils.GOOD_CLIENT_VERSIONS: 1.0-SNAPSHOT
+2017-07-24 10:16:18.203 {main} INFO  com.sohu.cache.web.service.impl.ConfigServiceImpl - ConstUtils.WARN_CLIENT_VERSIONS: 0.1
+2017-07-24 10:16:18.203 {main} INFO  com.sohu.cache.web.service.impl.ConfigServiceImpl - ConstUtils.ERROR_CLIENT_VERSIONS: 0.0
+2017-07-24 10:16:18.203 {main} INFO  com.sohu.cache.web.service.impl.ConfigServiceImpl - ConstUtils.REDIS_MIGRATE_TOOL_HOME: /opt/cachecloud/redis-migrate-tool/
+2017-07-24 10:16:18.204 {main} INFO  com.sohu.cache.web.service.impl.ConfigServiceImpl - ConstUtils.USER_LOGIN_TYPE: 1, session
+2017-07-24 10:16:18.204 {main} INFO  com.sohu.cache.web.service.impl.ConfigServiceImpl - ConstUtils.COOKIE_DOMAIN: 
+2017-07-24 10:16:18.204 {main} INFO  com.sohu.cache.web.service.impl.ConfigServiceImpl - ConstUtils.CACHECLOUD_BASE_DIR: /opt
+2017-07-24 10:16:18.204 {main} INFO  com.sohu.cache.web.service.impl.ConfigServiceImpl - ConstUtils.APP_CLIENT_CONN_THRESHOLD: 2000
+2017-07-24 10:16:18.204 {main} INFO  com.sohu.cache.web.service.impl.ConfigServiceImpl - ConstUtils.EMAIL_ALERT_INTERFACE: 
+2017-07-24 10:16:18.204 {main} INFO  com.sohu.cache.web.service.impl.ConfigServiceImpl - ConstUtils.MOBILE_ALERT_INTERFACE: 
+2017-07-24 10:16:18.205 {main} INFO  com.sohu.cache.web.service.impl.ConfigServiceImpl - ConstUtils.LDAP_URL: 
+2017-07-24 10:16:18.205 {main} INFO  com.sohu.cache.web.service.impl.ConfigServiceImpl - ConstUtils.WHETHER_SCHEDULE_CLEAN_DATA: false
+2017-07-24 10:16:18.205 {main} INFO  com.sohu.cache.web.service.impl.ConfigServiceImpl - ConstUtils.APP_SECRET_KEY: cachecloud-2014
+2017-07-24 10:16:18.205 {main} INFO  com.sohu.cache.web.service.impl.ConfigServiceImpl - ConstUtils.MACHINE_STATS_CRON_MINUTE: 1
+2017-07-24 10:16:18.205 {main} INFO  com.sohu.cache.web.service.impl.ConfigServiceImpl - ===========ConfigServiceImpl reload config end============
+2017-07-24 10:16:18.309 {main} INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2017-07-24 10:16:18.334 {main} INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2017-07-24 10:16:18.334 {main} INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.1 created.
+2017-07-24 10:16:18.336 {main} INFO  org.quartz.plugins.management.ShutdownHookPlugin - Registering Quartz shutdown hook.
+2017-07-24 10:16:18.336 {main} INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2017-07-24 10:16:18.342 {main} INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'jvmQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2017-07-24 10:16:18.342 {main} INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'jvmQuartzScheduler' initialized from an externally provided properties instance.
+2017-07-24 10:16:18.342 {main} INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.1
+2017-07-24 10:16:18.346 {main} INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@228da642
+2017-07-24 10:16:37.642 {Task-Thread-for-com.mchange.v2.async.ThreadPerTaskAsynchronousRunner@520429b6} WARN  com.mchange.v2.resourcepool.BasicResourcePool - com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@517d4569 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor50.newInstance(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_131]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_131]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1129) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:358) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2498) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2535) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2320) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:834) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46) ~[mysql-connector-java-5.1.29.jar:na]
+	at sun.reflect.GeneratedConstructorAccessor48.newInstance(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_131]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_131]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:416) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:347) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255) [c3p0-0.9.1.1.jar:0.9.1.1]
+Caused by: java.net.UnknownHostException: zhangbing.dev.p1staff.com
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280) ~[na:1.8.0_131]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192) ~[na:1.8.0_131]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126) ~[na:1.8.0_131]
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:248) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:308) ~[mysql-connector-java-5.1.29.jar:na]
+	... 19 common frames omitted
+2017-07-24 10:16:37.644 {Task-Thread-for-com.mchange.v2.async.ThreadPerTaskAsynchronousRunner@520429b6} WARN  com.mchange.v2.resourcepool.BasicResourcePool - com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@49b0cc78 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor50.newInstance(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_131]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_131]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1129) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:358) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2498) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2535) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2320) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:834) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46) ~[mysql-connector-java-5.1.29.jar:na]
+	at sun.reflect.GeneratedConstructorAccessor48.newInstance(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_131]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_131]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:416) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:347) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255) [c3p0-0.9.1.1.jar:0.9.1.1]
+Caused by: java.net.UnknownHostException: zhangbing.dev.p1staff.com
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280) ~[na:1.8.0_131]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192) ~[na:1.8.0_131]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126) ~[na:1.8.0_131]
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:248) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:308) ~[mysql-connector-java-5.1.29.jar:na]
+	... 19 common frames omitted
+2017-07-24 10:16:37.643 {Task-Thread-for-com.mchange.v2.async.ThreadPerTaskAsynchronousRunner@520429b6} WARN  com.mchange.v2.resourcepool.BasicResourcePool - com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@422f543 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor50.newInstance(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_131]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_131]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1129) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:358) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2498) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2535) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2320) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:834) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46) ~[mysql-connector-java-5.1.29.jar:na]
+	at sun.reflect.GeneratedConstructorAccessor48.newInstance(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_131]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_131]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:416) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:347) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255) [c3p0-0.9.1.1.jar:0.9.1.1]
+Caused by: java.net.UnknownHostException: zhangbing.dev.p1staff.com
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280) ~[na:1.8.0_131]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192) ~[na:1.8.0_131]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126) ~[na:1.8.0_131]
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:248) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:308) ~[mysql-connector-java-5.1.29.jar:na]
+	... 19 common frames omitted
+2017-07-24 10:16:37.645 {main} WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jvmQuartzScheduler' defined in class path resource [spring/spring-quartz.xml]: Invocation of init method failed; nested exception is org.springframework.transaction.CannotCreateTransactionException: Could not open JDBC Connection for transaction; nested exception is java.sql.SQLException: Connections could not be acquired from the underlying database!
+2017-07-24 10:16:37.645 {Task-Thread-for-com.mchange.v2.async.ThreadPerTaskAsynchronousRunner@520429b6} WARN  com.mchange.v2.resourcepool.BasicResourcePool - com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@755a426e -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor50.newInstance(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_131]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_131]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1129) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:358) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2498) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2535) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2320) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:834) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46) ~[mysql-connector-java-5.1.29.jar:na]
+	at sun.reflect.GeneratedConstructorAccessor48.newInstance(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_131]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_131]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:416) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:347) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255) [c3p0-0.9.1.1.jar:0.9.1.1]
+Caused by: java.net.UnknownHostException: zhangbing.dev.p1staff.com
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280) ~[na:1.8.0_131]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192) ~[na:1.8.0_131]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126) ~[na:1.8.0_131]
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:248) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:308) ~[mysql-connector-java-5.1.29.jar:na]
+	... 19 common frames omitted
+2017-07-24 10:16:37.652 {main} INFO  org.apache.catalina.core.StandardService - Stopping service Tomcat
+2017-07-24 10:16:37.668 {main} ERROR org.springframework.boot.SpringApplication - Application startup failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jvmQuartzScheduler' defined in class path resource [spring/spring-quartz.xml]: Invocation of init method failed; nested exception is org.springframework.transaction.CannotCreateTransactionException: Could not open JDBC Connection for transaction; nested exception is java.sql.SQLException: Connections could not be acquired from the underlying database!
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1578) ~[spring-beans-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545) ~[spring-beans-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482) ~[spring-beans-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:753) ~[spring-beans-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:839) ~[spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538) ~[spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:118) ~[spring-boot-1.3.1.RELEASE.jar:1.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:764) ~[spring-boot-1.3.1.RELEASE.jar:1.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.doRun(SpringApplication.java:357) ~[spring-boot-1.3.1.RELEASE.jar:1.3.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:305) ~[spring-boot-1.3.1.RELEASE.jar:1.3.1.RELEASE]
+	at com.sohu.cache.app.ApplicationStarter.main(ApplicationStarter.java:19) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_131]
+	at org.springframework.boot.maven.AbstractRunMojo$LaunchRunner.run(AbstractRunMojo.java:467) [spring-boot-maven-plugin-1.3.1.RELEASE.jar:1.3.1.RELEASE]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+Caused by: org.springframework.transaction.CannotCreateTransactionException: Could not open JDBC Connection for transaction; nested exception is java.sql.SQLException: Connections could not be acquired from the underlying database!
+	at org.springframework.jdbc.datasource.DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:245) ~[spring-jdbc-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:373) ~[spring-tx-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.scheduling.quartz.SchedulerAccessor.registerJobsAndTriggers(SchedulerAccessor.java:200) ~[spring-context-support-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.scheduling.quartz.SchedulerFactoryBean.afterPropertiesSet(SchedulerFactoryBean.java:512) ~[spring-context-support-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1637) ~[spring-beans-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574) ~[spring-beans-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	... 20 common frames omitted
+Caused by: java.sql.SQLException: Connections could not be acquired from the underlying database!
+	at com.mchange.v2.sql.SqlUtils.toSQLException(SqlUtils.java:106) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool.checkoutPooledConnection(C3P0PooledConnectionPool.java:529) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource.getConnection(AbstractPoolBackedDataSource.java:128) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at org.springframework.jdbc.datasource.DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:204) ~[spring-jdbc-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	... 25 common frames omitted
+Caused by: com.mchange.v2.resourcepool.CannotAcquireResourceException: A ResourcePool could not acquire a resource from its primary factory or source.
+	at com.mchange.v2.resourcepool.BasicResourcePool.awaitAvailable(BasicResourcePool.java:1319) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.resourcepool.BasicResourcePool.prelimCheckoutResource(BasicResourcePool.java:557) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.resourcepool.BasicResourcePool.checkoutResource(BasicResourcePool.java:477) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool.checkoutPooledConnection(C3P0PooledConnectionPool.java:525) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	... 27 common frames omitted
+2017-07-24 10:16:37.687 {main} WARN  o.s.b.factory.support.DefaultListableBeanFactory - Bean creation exception on FactoryBean type check: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' is defined
+2017-07-24 10:16:37.690 {main} WARN  o.s.b.factory.support.DefaultListableBeanFactory - Bean creation exception on FactoryBean type check: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appAuditDao' defined in file [/Users/zhangbing/code/cachecloud/cachecloud-open-web/target/classes/com/sohu/cache/dao/AppAuditDao.class]: Cannot resolve reference to bean 'mysqlSessionFactory' while setting bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' is defined
+2017-07-24 10:16:37.691 {main} WARN  o.s.b.factory.support.DefaultListableBeanFactory - Bean creation exception on FactoryBean type check: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appAuditLogDao' defined in file [/Users/zhangbing/code/cachecloud/cachecloud-open-web/target/classes/com/sohu/cache/dao/AppAuditLogDao.class]: Cannot resolve reference to bean 'mysqlSessionFactory' while setting bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' is defined
+2017-07-24 10:16:37.696 {main} WARN  o.s.b.factory.support.DefaultListableBeanFactory - Bean creation exception on FactoryBean type check: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appClientCostTimeStatDao' defined in file [/Users/zhangbing/code/cachecloud/cachecloud-open-web/target/classes/com/sohu/cache/dao/AppClientCostTimeStatDao.class]: Cannot resolve reference to bean 'mysqlSessionFactory' while setting bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' is defined
+2017-07-24 10:16:37.703 {main} WARN  o.s.b.factory.support.DefaultListableBeanFactory - Bean creation exception on FactoryBean type check: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appClientCostTimeTotalStatDao' defined in file [/Users/zhangbing/code/cachecloud/cachecloud-open-web/target/classes/com/sohu/cache/dao/AppClientCostTimeTotalStatDao.class]: Cannot resolve reference to bean 'mysqlSessionFactory' while setting bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' is defined
+2017-07-24 10:16:37.704 {main} WARN  o.s.b.factory.support.DefaultListableBeanFactory - Bean creation exception on FactoryBean type check: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appClientExceptionStatDao' defined in file [/Users/zhangbing/code/cachecloud/cachecloud-open-web/target/classes/com/sohu/cache/dao/AppClientExceptionStatDao.class]: Cannot resolve reference to bean 'mysqlSessionFactory' while setting bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' is defined
+2017-07-24 10:16:37.705 {main} WARN  o.s.b.factory.support.DefaultListableBeanFactory - Bean creation exception on FactoryBean type check: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appClientReportDataSizeDao' defined in file [/Users/zhangbing/code/cachecloud/cachecloud-open-web/target/classes/com/sohu/cache/dao/AppClientReportDataSizeDao.class]: Cannot resolve reference to bean 'mysqlSessionFactory' while setting bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' is defined
+2017-07-24 10:16:37.708 {Task-Thread-for-com.mchange.v2.async.ThreadPerTaskAsynchronousRunner@520429b6} WARN  com.mchange.v2.resourcepool.BasicResourcePool - com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@5533f8bd -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor50.newInstance(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_131]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_131]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1129) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:358) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2498) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2535) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2320) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:834) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46) ~[mysql-connector-java-5.1.29.jar:na]
+	at sun.reflect.GeneratedConstructorAccessor48.newInstance(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_131]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_131]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:416) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:347) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255) [c3p0-0.9.1.1.jar:0.9.1.1]
+Caused by: java.net.UnknownHostException: zhangbing.dev.p1staff.com
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280) ~[na:1.8.0_131]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192) ~[na:1.8.0_131]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126) ~[na:1.8.0_131]
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:248) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:308) ~[mysql-connector-java-5.1.29.jar:na]
+	... 19 common frames omitted
+2017-07-24 10:16:37.708 {Task-Thread-for-com.mchange.v2.async.ThreadPerTaskAsynchronousRunner@520429b6} WARN  com.mchange.v2.resourcepool.BasicResourcePool - com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@46a897b5 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor50.newInstance(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_131]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_131]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1129) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:358) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2498) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2535) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2320) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:834) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46) ~[mysql-connector-java-5.1.29.jar:na]
+	at sun.reflect.GeneratedConstructorAccessor48.newInstance(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_131]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_131]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:416) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:347) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255) [c3p0-0.9.1.1.jar:0.9.1.1]
+Caused by: java.net.UnknownHostException: zhangbing.dev.p1staff.com
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280) ~[na:1.8.0_131]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192) ~[na:1.8.0_131]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126) ~[na:1.8.0_131]
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:248) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:308) ~[mysql-connector-java-5.1.29.jar:na]
+	... 19 common frames omitted
+2017-07-24 10:16:37.706 {Task-Thread-for-com.mchange.v2.async.ThreadPerTaskAsynchronousRunner@520429b6} WARN  com.mchange.v2.resourcepool.BasicResourcePool - com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@6e5eae12 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor50.newInstance(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_131]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_131]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1129) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:358) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2498) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2535) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2320) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:834) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46) ~[mysql-connector-java-5.1.29.jar:na]
+	at sun.reflect.GeneratedConstructorAccessor48.newInstance(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_131]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_131]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:416) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:347) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:135) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810) ~[c3p0-0.9.1.1.jar:0.9.1.1]
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255) [c3p0-0.9.1.1.jar:0.9.1.1]
+Caused by: java.net.UnknownHostException: zhangbing.dev.p1staff.com
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280) ~[na:1.8.0_131]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192) ~[na:1.8.0_131]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126) ~[na:1.8.0_131]
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:248) ~[mysql-connector-java-5.1.29.jar:na]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:308) ~[mysql-connector-java-5.1.29.jar:na]
+	... 19 common frames omitted
+2017-07-24 10:16:37.716 {main} WARN  o.s.b.factory.support.DefaultListableBeanFactory - Bean creation exception on FactoryBean type check: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appClientValueStatDao' defined in file [/Users/zhangbing/code/cachecloud/cachecloud-open-web/target/classes/com/sohu/cache/dao/AppClientValueStatDao.class]: Cannot resolve reference to bean 'mysqlSessionFactory' while setting bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' is defined
+2017-07-24 10:16:37.725 {main} WARN  o.s.b.factory.support.DefaultListableBeanFactory - Bean creation exception on FactoryBean type check: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appClientVersionDao' defined in file [/Users/zhangbing/code/cachecloud/cachecloud-open-web/target/classes/com/sohu/cache/dao/AppClientVersionDao.class]: Cannot resolve reference to bean 'mysqlSessionFactory' while setting bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' is defined
+2017-07-24 10:16:37.727 {main} WARN  o.s.b.factory.support.DefaultListableBeanFactory - Bean creation exception on FactoryBean type check: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appDailyDao' defined in file [/Users/zhangbing/code/cachecloud/cachecloud-open-web/target/classes/com/sohu/cache/dao/AppDailyDao.class]: Cannot resolve reference to bean 'mysqlSessionFactory' while setting bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' is defined
+2017-07-24 10:16:37.728 {main} WARN  o.s.b.factory.support.DefaultListableBeanFactory - Bean creation exception on FactoryBean type check: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appDao' defined in file [/Users/zhangbing/code/cachecloud/cachecloud-open-web/target/classes/com/sohu/cache/dao/AppDao.class]: Cannot resolve reference to bean 'mysqlSessionFactory' while setting bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' is defined
+2017-07-24 10:16:37.729 {main} WARN  o.s.b.factory.support.DefaultListableBeanFactory - Bean creation exception on FactoryBean type check: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appDataMigrateStatusDao' defined in file [/Users/zhangbing/code/cachecloud/cachecloud-open-web/target/classes/com/sohu/cache/dao/AppDataMigrateStatusDao.class]: Cannot resolve reference to bean 'mysqlSessionFactory' while setting bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' is defined
+2017-07-24 10:16:37.730 {main} WARN  o.s.b.factory.support.DefaultListableBeanFactory - Bean creation exception on FactoryBean type check: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appInstanceClientRelationDao' defined in file [/Users/zhangbing/code/cachecloud/cachecloud-open-web/target/classes/com/sohu/cache/dao/AppInstanceClientRelationDao.class]: Cannot resolve reference to bean 'mysqlSessionFactory' while setting bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' is defined
+2017-07-24 10:16:37.732 {main} WARN  o.s.b.factory.support.DefaultListableBeanFactory - Bean creation exception on FactoryBean type check: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appStatsDao' defined in file [/Users/zhangbing/code/cachecloud/cachecloud-open-web/target/classes/com/sohu/cache/dao/AppStatsDao.class]: Cannot resolve reference to bean 'mysqlSessionFactory' while setting bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' is defined
+2017-07-24 10:16:37.733 {main} WARN  o.s.b.factory.support.DefaultListableBeanFactory - Bean creation exception on FactoryBean type check: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appToUserDao' defined in file [/Users/zhangbing/code/cachecloud/cachecloud-open-web/target/classes/com/sohu/cache/dao/AppToUserDao.class]: Cannot resolve reference to bean 'mysqlSessionFactory' while setting bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' is defined
+2017-07-24 10:16:37.734 {main} WARN  o.s.b.factory.support.DefaultListableBeanFactory - Bean creation exception on FactoryBean type check: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appUserDao' defined in file [/Users/zhangbing/code/cachecloud/cachecloud-open-web/target/classes/com/sohu/cache/dao/AppUserDao.class]: Cannot resolve reference to bean 'mysqlSessionFactory' while setting bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' is defined
+2017-07-24 10:16:37.735 {main} WARN  o.s.b.factory.support.DefaultListableBeanFactory - Bean creation exception on FactoryBean type check: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'configDao' defined in file [/Users/zhangbing/code/cachecloud/cachecloud-open-web/target/classes/com/sohu/cache/dao/ConfigDao.class]: Cannot resolve reference to bean 'mysqlSessionFactory' while setting bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' is defined
+2017-07-24 10:16:37.736 {main} WARN  o.s.b.factory.support.DefaultListableBeanFactory - Bean creation exception on FactoryBean type check: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'instanceAlertConfigDao' defined in file [/Users/zhangbing/code/cachecloud/cachecloud-open-web/target/classes/com/sohu/cache/dao/InstanceAlertConfigDao.class]: Cannot resolve reference to bean 'mysqlSessionFactory' while setting bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' is defined
+2017-07-24 10:16:37.737 {main} WARN  o.s.b.factory.support.DefaultListableBeanFactory - Bean creation exception on FactoryBean type check: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'instanceConfigDao' defined in file [/Users/zhangbing/code/cachecloud/cachecloud-open-web/target/classes/com/sohu/cache/dao/InstanceConfigDao.class]: Cannot resolve reference to bean 'mysqlSessionFactory' while setting bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' is defined
+2017-07-24 10:16:37.742 {main} WARN  o.s.b.factory.support.DefaultListableBeanFactory - Bean creation exception on FactoryBean type check: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'instanceDao' defined in file [/Users/zhangbing/code/cachecloud/cachecloud-open-web/target/classes/com/sohu/cache/dao/InstanceDao.class]: Cannot resolve reference to bean 'mysqlSessionFactory' while setting bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' is defined
+2017-07-24 10:16:37.743 {main} WARN  o.s.b.factory.support.DefaultListableBeanFactory - Bean creation exception on FactoryBean type check: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'instanceFaultDao' defined in file [/Users/zhangbing/code/cachecloud/cachecloud-open-web/target/classes/com/sohu/cache/dao/InstanceFaultDao.class]: Cannot resolve reference to bean 'mysqlSessionFactory' while setting bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' is defined
+2017-07-24 10:16:37.753 {main} WARN  o.s.b.factory.support.DefaultListableBeanFactory - Bean creation exception on FactoryBean type check: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'instanceSlowLogDao' defined in file [/Users/zhangbing/code/cachecloud/cachecloud-open-web/target/classes/com/sohu/cache/dao/InstanceSlowLogDao.class]: Cannot resolve reference to bean 'mysqlSessionFactory' while setting bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' is defined
+2017-07-24 10:16:37.753 {main} WARN  o.s.b.factory.support.DefaultListableBeanFactory - Bean creation exception on FactoryBean type check: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'instanceStatsDao' defined in file [/Users/zhangbing/code/cachecloud/cachecloud-open-web/target/classes/com/sohu/cache/dao/InstanceStatsDao.class]: Cannot resolve reference to bean 'mysqlSessionFactory' while setting bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' is defined
+2017-07-24 10:16:37.754 {main} WARN  o.s.b.factory.support.DefaultListableBeanFactory - Bean creation exception on FactoryBean type check: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'machineDao' defined in file [/Users/zhangbing/code/cachecloud/cachecloud-open-web/target/classes/com/sohu/cache/dao/MachineDao.class]: Cannot resolve reference to bean 'mysqlSessionFactory' while setting bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' is defined
+2017-07-24 10:16:37.765 {main} WARN  o.s.b.factory.support.DefaultListableBeanFactory - Bean creation exception on FactoryBean type check: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'machineStatsDao' defined in file [/Users/zhangbing/code/cachecloud/cachecloud-open-web/target/classes/com/sohu/cache/dao/MachineStatsDao.class]: Cannot resolve reference to bean 'mysqlSessionFactory' while setting bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' is defined
+2017-07-24 10:16:37.766 {main} WARN  o.s.b.factory.support.DefaultListableBeanFactory - Bean creation exception on FactoryBean type check: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'memFaultDao' defined in file [/Users/zhangbing/code/cachecloud/cachecloud-open-web/target/classes/com/sohu/cache/dao/MemFaultDao.class]: Cannot resolve reference to bean 'mysqlSessionFactory' while setting bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' is defined
+2017-07-24 10:16:37.767 {main} WARN  o.s.b.factory.support.DefaultListableBeanFactory - Bean creation exception on FactoryBean type check: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'quartzDao' defined in file [/Users/zhangbing/code/cachecloud/cachecloud-open-web/target/classes/com/sohu/cache/dao/QuartzDao.class]: Cannot resolve reference to bean 'mysqlSessionFactory' while setting bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' is defined
+2017-07-24 10:16:37.768 {main} WARN  o.s.b.factory.support.DefaultListableBeanFactory - Bean creation exception on FactoryBean type check: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'serverStatusDao' defined in file [/Users/zhangbing/code/cachecloud/cachecloud-open-web/target/classes/com/sohu/cache/dao/ServerStatusDao.class]: Cannot resolve reference to bean 'mysqlSessionFactory' while setting bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' is defined
+2017-07-24 10:16:37.780 {main} WARN  org.springframework.boot.SpringApplication - Error handling failed (Error creating bean with name 'mysqlSessionFactory' defined in class path resource [spring/spring-mybatis.xml]: Cannot resolve reference to bean 'cacheCloudDB' while setting bean property 'dataSource'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cacheCloudDB' defined in class path resource [spring/spring-mybatis.xml]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$DataSourceInitializerConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' is defined)
+2017-07-24 11:48:19.471 {Quartz Shutdown-Hook jvmQuartzScheduler} INFO  org.quartz.plugins.management.ShutdownHookPlugin - Shutting down Quartz...
+2017-07-24 11:48:19.471 {Quartz Shutdown-Hook jvmQuartzScheduler} INFO  org.quartz.core.QuartzScheduler - Scheduler jvmQuartzScheduler_$_NON_CLUSTERED shutting down.
+2017-07-24 11:48:19.472 {Quartz Shutdown-Hook jvmQuartzScheduler} INFO  org.quartz.core.QuartzScheduler - Scheduler jvmQuartzScheduler_$_NON_CLUSTERED paused.
+2017-07-24 11:48:19.925 {Quartz Shutdown-Hook jvmQuartzScheduler} INFO  org.quartz.core.QuartzScheduler - Scheduler unregistered from name 'quartz:type=QuartzScheduler,name=jvmQuartzScheduler,instance=NON_CLUSTERED' in the local MBeanServer.
+2017-07-24 11:48:19.926 {Quartz Shutdown-Hook jvmQuartzScheduler} INFO  org.quartz.core.QuartzScheduler - Scheduler jvmQuartzScheduler_$_NON_CLUSTERED shutdown complete.

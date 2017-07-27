@@ -437,6 +437,9 @@ public class MachineCenterImpl implements MachineCenter {
             }
         }
 
+        // 添加bind配置
+        content.add("bind " + host);
+
         Path path = Paths.get(MachineProtocol.TMP_DIR + fileName);
         String remotePath = MachineProtocol.CONF_DIR + fileName;
         /**
